@@ -38,6 +38,21 @@
         <p class="text-p">Джеффри Зельдман (англ.) русск. предложил расширить понятие Итана Маркотта, чтобы оно
             покрывало любые подходы, обеспечивающие ясное визуальное восприятие независимо от&nbsp;характеристик экрана
             и&nbsp;других ограничений пользовательского устройства.</p>
+        <div><a class="feedback-button" href="">Оставить отзыв о статье</a></div>
+    </section>
+    <section class="modal modal-feedback">
+        <form class="modal-feedback__form" action="" method="POST">
+            <h2 class="modal-feedback__headline">Отзыв о статье</h2>
+            <div class="modal-feedback__name">
+                <input class="name" id="user-name" type="text" name="name" placeholder="Имя:*" required>
+            </div>
+            <div class="modal-feedback__text">
+                <textarea id="user-letter" name="letter" rows="7" placeholder="Пожалуйста, оставтье ваш отзыв*"
+                    required></textarea>
+            </div>
+            <button type="submit" class="button modal-feedback__button">Отправить</button>
+            <button type="button" class="modal-close"><span class="visually-hidden">Закрыть</span></button>
+        </form>
     </section>
 </body>
 
